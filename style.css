@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{font-family: 'Open Sans', sans-serif;}
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+/* nav part start */
+.name{
+color: #181818;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+}
+
+nav ul li{
+  list-style: none;
+}
+ 
+nav ul li a{
+  text-decoration: none;
+  margin-right: 50px;
+  color: #474747;
+}
+
+.btn-orange{
+  background-color:#FD6E0A;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px;
+}
+
+span{
+  color: #FD6E0A;
+}
